@@ -17,19 +17,17 @@ Open the demo project, and copy the folder called **BVAccurateRoutePlot** to you
 ## **Example**
 
 
-**`//Initilaize the route  plotter`**
+``` smalltalk 
 
-`BVAccurateRoutePlot *routePlotter = [[BVAccurateRoutePlot alloc] init];`
+//Initilaize the route  plotter
+BVAccurateRoutePlot *routePlotter = [[BVAccurateRoutePlot alloc] init];
         
-**`//Set up some properties`**
+//Set up some properties
+routePlotter.strokeWidth = 6;
+routePlotter.strokeColor = [UIColor blueColor];
 
-`routePlotter.strokeWidth = 6;`
-
-`routePlotter.strokeColor = [UIColor blueColor];`
-  
-**`//Draw the route on the map, snapped to the road`**
-      
-`[routePlotter drawRouteOnMap:mapView withStartPoint:[tappedCoordinates objectAtIndex:0] endPoint:[tappedCoordinates objectAtIndex:1]];`
+[routePlotter drawRouteOnMap:mapView withStartPoint:[tappedCoordinates objectAtIndex:0] endPoint:[tappedCoordinates objectAtIndex:1]]; 
+```
 
 ## **License**
 
