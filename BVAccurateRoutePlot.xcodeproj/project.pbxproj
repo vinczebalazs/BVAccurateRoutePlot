@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9899E9771D6CF026009E1836 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9899E9761D6CF026009E1836 /* MapKit.framework */; };
+		98EBE7BE1D6CC69F0078E84B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7BD1D6CC69F0078E84B /* main.m */; };
+		98EBE7C11D6CC69F0078E84B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7C01D6CC69F0078E84B /* AppDelegate.m */; };
+		98EBE7C41D6CC69F0078E84B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7C31D6CC69F0078E84B /* ViewController.m */; };
+		98EBE7C71D6CC69F0078E84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EBE7C51D6CC69F0078E84B /* Main.storyboard */; };
+		98EBE7C91D6CC69F0078E84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EBE7C81D6CC69F0078E84B /* Assets.xcassets */; };
+		98EBE7CC1D6CC69F0078E84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EBE7CA1D6CC69F0078E84B /* LaunchScreen.storyboard */; };
+		98EBE7D71D6CC69F0078E84B /* BVAccurateRoutePlotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7D61D6CC69F0078E84B /* BVAccurateRoutePlotTests.m */; };
+		98EBE7E21D6CC69F0078E84B /* BVAccurateRoutePlotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7E11D6CC69F0078E84B /* BVAccurateRoutePlotUITests.m */; };
+		98EBE7F11D6CC83E0078E84B /* BVAccurateRoutePlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EBE7F01D6CC83E0078E84B /* BVAccurateRoutePlot.m */; };
+		C6133579CD4B581E823D136D /* libPods-BVAccurateRoutePlotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F147DBC5D445996EBB601F64 /* libPods-BVAccurateRoutePlotTests.a */; };
+		EC8FE6DAB770B5F33A248BD5 /* libPods-BVAccurateRoutePlotUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED680765AFC295C1830A6CE /* libPods-BVAccurateRoutePlotUITests.a */; };
+		FB2818B555CF78D34C0F24D7 /* libPods-BVAccurateRoutePlot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC2E17411BB42B27244D2A7 /* libPods-BVAccurateRoutePlot.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98EBE7D31D6CC69F0078E84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EBE7B11D6CC69F0078E84B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EBE7B81D6CC69F0078E84B;
+			remoteInfo = BVAccurateRoutePlot;
+		};
+		98EBE7DE1D6CC69F0078E84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EBE7B11D6CC69F0078E84B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EBE7B81D6CC69F0078E84B;
+			remoteInfo = BVAccurateRoutePlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190ABAC433B99CC060FB2164 /* Pods-BVAccurateRoutePlot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlot.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlot/Pods-BVAccurateRoutePlot.release.xcconfig"; sourceTree = "<group>"; };
+		1ED680765AFC295C1830A6CE /* libPods-BVAccurateRoutePlotUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BVAccurateRoutePlotUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC2E17411BB42B27244D2A7 /* libPods-BVAccurateRoutePlot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BVAccurateRoutePlot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7E2413C3D0CCE83E50111 /* Pods-BVAccurateRoutePlot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlot/Pods-BVAccurateRoutePlot.debug.xcconfig"; sourceTree = "<group>"; };
+		986D849026212DCE7F3030CD /* Pods-BVAccurateRoutePlotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlotUITests/Pods-BVAccurateRoutePlotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9899E9761D6CF026009E1836 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		98EBE7B91D6CC69F0078E84B /* BVAccurateRoutePlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BVAccurateRoutePlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EBE7BD1D6CC69F0078E84B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98EBE7BF1D6CC69F0078E84B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98EBE7C01D6CC69F0078E84B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98EBE7C21D6CC69F0078E84B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98EBE7C31D6CC69F0078E84B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98EBE7C61D6CC69F0078E84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98EBE7C81D6CC69F0078E84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98EBE7CB1D6CC69F0078E84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98EBE7CD1D6CC69F0078E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EBE7D21D6CC69F0078E84B /* BVAccurateRoutePlotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BVAccurateRoutePlotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EBE7D61D6CC69F0078E84B /* BVAccurateRoutePlotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAccurateRoutePlotTests.m; sourceTree = "<group>"; };
+		98EBE7D81D6CC69F0078E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EBE7DD1D6CC69F0078E84B /* BVAccurateRoutePlotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BVAccurateRoutePlotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EBE7E11D6CC69F0078E84B /* BVAccurateRoutePlotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAccurateRoutePlotUITests.m; sourceTree = "<group>"; };
+		98EBE7E31D6CC69F0078E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EBE7EF1D6CC83E0078E84B /* BVAccurateRoutePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVAccurateRoutePlot.h; sourceTree = "<group>"; };
+		98EBE7F01D6CC83E0078E84B /* BVAccurateRoutePlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVAccurateRoutePlot.m; sourceTree = "<group>"; };
+		B9E6BED01A814C9DD8C1708A /* Pods-BVAccurateRoutePlotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlotTests/Pods-BVAccurateRoutePlotTests.release.xcconfig"; sourceTree = "<group>"; };
+		D96D4306ACA9019DD0D14920 /* Pods-BVAccurateRoutePlotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlotUITests/Pods-BVAccurateRoutePlotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE718B77E2ED3C21FB1D2070 /* Pods-BVAccurateRoutePlotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVAccurateRoutePlotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BVAccurateRoutePlotTests/Pods-BVAccurateRoutePlotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F147DBC5D445996EBB601F64 /* libPods-BVAccurateRoutePlotTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BVAccurateRoutePlotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98EBE7B61D6CC69F0078E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9899E9771D6CF026009E1836 /* MapKit.framework in Frameworks */,
+				FB2818B555CF78D34C0F24D7 /* libPods-BVAccurateRoutePlot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7CF1D6CC69F0078E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6133579CD4B581E823D136D /* libPods-BVAccurateRoutePlotTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7DA1D6CC69F0078E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8FE6DAB770B5F33A248BD5 /* libPods-BVAccurateRoutePlotUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FE11FFEC1BAB83725F4229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9899E9761D6CF026009E1836 /* MapKit.framework */,
+				3EC2E17411BB42B27244D2A7 /* libPods-BVAccurateRoutePlot.a */,
+				F147DBC5D445996EBB601F64 /* libPods-BVAccurateRoutePlotTests.a */,
+				1ED680765AFC295C1830A6CE /* libPods-BVAccurateRoutePlotUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9899E9781D6CF4F5009E1836 /* BVAccurateRoutePlot */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7EF1D6CC83E0078E84B /* BVAccurateRoutePlot.h */,
+				98EBE7F01D6CC83E0078E84B /* BVAccurateRoutePlot.m */,
+			);
+			name = BVAccurateRoutePlot;
+			sourceTree = "<group>";
+		};
+		98EBE7B01D6CC69F0078E84B = {
+			isa = PBXGroup;
+			children = (
+				98EBE7BB1D6CC69F0078E84B /* BVAccurateRoutePlot */,
+				98EBE7D51D6CC69F0078E84B /* BVAccurateRoutePlotTests */,
+				98EBE7E01D6CC69F0078E84B /* BVAccurateRoutePlotUITests */,
+				98EBE7BA1D6CC69F0078E84B /* Products */,
+				EBAF20E404CAB599BBE1A1DB /* Pods */,
+				79FE11FFEC1BAB83725F4229 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98EBE7BA1D6CC69F0078E84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7B91D6CC69F0078E84B /* BVAccurateRoutePlot.app */,
+				98EBE7D21D6CC69F0078E84B /* BVAccurateRoutePlotTests.xctest */,
+				98EBE7DD1D6CC69F0078E84B /* BVAccurateRoutePlotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EBE7BB1D6CC69F0078E84B /* BVAccurateRoutePlot */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7BF1D6CC69F0078E84B /* AppDelegate.h */,
+				98EBE7C01D6CC69F0078E84B /* AppDelegate.m */,
+				98EBE7C21D6CC69F0078E84B /* ViewController.h */,
+				98EBE7C31D6CC69F0078E84B /* ViewController.m */,
+				98EBE7C51D6CC69F0078E84B /* Main.storyboard */,
+				9899E9781D6CF4F5009E1836 /* BVAccurateRoutePlot */,
+				98EBE7C81D6CC69F0078E84B /* Assets.xcassets */,
+				98EBE7CA1D6CC69F0078E84B /* LaunchScreen.storyboard */,
+				98EBE7CD1D6CC69F0078E84B /* Info.plist */,
+				98EBE7BC1D6CC69F0078E84B /* Supporting Files */,
+			);
+			path = BVAccurateRoutePlot;
+			sourceTree = "<group>";
+		};
+		98EBE7BC1D6CC69F0078E84B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7BD1D6CC69F0078E84B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98EBE7D51D6CC69F0078E84B /* BVAccurateRoutePlotTests */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7D61D6CC69F0078E84B /* BVAccurateRoutePlotTests.m */,
+				98EBE7D81D6CC69F0078E84B /* Info.plist */,
+			);
+			path = BVAccurateRoutePlotTests;
+			sourceTree = "<group>";
+		};
+		98EBE7E01D6CC69F0078E84B /* BVAccurateRoutePlotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98EBE7E11D6CC69F0078E84B /* BVAccurateRoutePlotUITests.m */,
+				98EBE7E31D6CC69F0078E84B /* Info.plist */,
+			);
+			path = BVAccurateRoutePlotUITests;
+			sourceTree = "<group>";
+		};
+		EBAF20E404CAB599BBE1A1DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45C7E2413C3D0CCE83E50111 /* Pods-BVAccurateRoutePlot.debug.xcconfig */,
+				190ABAC433B99CC060FB2164 /* Pods-BVAccurateRoutePlot.release.xcconfig */,
+				EE718B77E2ED3C21FB1D2070 /* Pods-BVAccurateRoutePlotTests.debug.xcconfig */,
+				B9E6BED01A814C9DD8C1708A /* Pods-BVAccurateRoutePlotTests.release.xcconfig */,
+				D96D4306ACA9019DD0D14920 /* Pods-BVAccurateRoutePlotUITests.debug.xcconfig */,
+				986D849026212DCE7F3030CD /* Pods-BVAccurateRoutePlotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98EBE7B81D6CC69F0078E84B /* BVAccurateRoutePlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EBE7E61D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlot" */;
+			buildPhases = (
+				77382F43AED32E7591051753 /* [CP] Check Pods Manifest.lock */,
+				98EBE7B51D6CC69F0078E84B /* Sources */,
+				98EBE7B61D6CC69F0078E84B /* Frameworks */,
+				98EBE7B71D6CC69F0078E84B /* Resources */,
+				C42173F19E065424DB9358D6 /* [CP] Embed Pods Frameworks */,
+				AEEC229CD1824B6811C67ED3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BVAccurateRoutePlot;
+			productName = BVAccurateRoutePlot;
+			productReference = 98EBE7B91D6CC69F0078E84B /* BVAccurateRoutePlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98EBE7D11D6CC69F0078E84B /* BVAccurateRoutePlotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EBE7E91D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlotTests" */;
+			buildPhases = (
+				F70F44503782D48EE7678811 /* [CP] Check Pods Manifest.lock */,
+				98EBE7CE1D6CC69F0078E84B /* Sources */,
+				98EBE7CF1D6CC69F0078E84B /* Frameworks */,
+				98EBE7D01D6CC69F0078E84B /* Resources */,
+				91AAEB81B574D0885E55B297 /* [CP] Embed Pods Frameworks */,
+				AE09420217F656A2B216E09B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EBE7D41D6CC69F0078E84B /* PBXTargetDependency */,
+			);
+			name = BVAccurateRoutePlotTests;
+			productName = BVAccurateRoutePlotTests;
+			productReference = 98EBE7D21D6CC69F0078E84B /* BVAccurateRoutePlotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98EBE7DC1D6CC69F0078E84B /* BVAccurateRoutePlotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EBE7EC1D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlotUITests" */;
+			buildPhases = (
+				784C5907ACAFC3519D9569D5 /* [CP] Check Pods Manifest.lock */,
+				98EBE7D91D6CC69F0078E84B /* Sources */,
+				98EBE7DA1D6CC69F0078E84B /* Frameworks */,
+				98EBE7DB1D6CC69F0078E84B /* Resources */,
+				B6F68DFD573B0AF1211DFBD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EBE7DF1D6CC69F0078E84B /* PBXTargetDependency */,
+			);
+			name = BVAccurateRoutePlotUITests;
+			productName = BVAccurateRoutePlotUITests;
+			productReference = 98EBE7DD1D6CC69F0078E84B /* BVAccurateRoutePlotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98EBE7B11D6CC69F0078E84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Balazs Vincze";
+				TargetAttributes = {
+					98EBE7B81D6CC69F0078E84B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RN5LWE7CLV;
+					};
+					98EBE7D11D6CC69F0078E84B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 98EBE7B81D6CC69F0078E84B;
+					};
+					98EBE7DC1D6CC69F0078E84B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 98EBE7B81D6CC69F0078E84B;
+					};
+				};
+			};
+			buildConfigurationList = 98EBE7B41D6CC69F0078E84B /* Build configuration list for PBXProject "BVAccurateRoutePlot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98EBE7B01D6CC69F0078E84B;
+			productRefGroup = 98EBE7BA1D6CC69F0078E84B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98EBE7B81D6CC69F0078E84B /* BVAccurateRoutePlot */,
+				98EBE7D11D6CC69F0078E84B /* BVAccurateRoutePlotTests */,
+				98EBE7DC1D6CC69F0078E84B /* BVAccurateRoutePlotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98EBE7B71D6CC69F0078E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EBE7CC1D6CC69F0078E84B /* LaunchScreen.storyboard in Resources */,
+				98EBE7C91D6CC69F0078E84B /* Assets.xcassets in Resources */,
+				98EBE7C71D6CC69F0078E84B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7D01D6CC69F0078E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7DB1D6CC69F0078E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77382F43AED32E7591051753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		784C5907ACAFC3519D9569D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91AAEB81B574D0885E55B297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVAccurateRoutePlotTests/Pods-BVAccurateRoutePlotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE09420217F656A2B216E09B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVAccurateRoutePlotTests/Pods-BVAccurateRoutePlotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEC229CD1824B6811C67ED3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVAccurateRoutePlot/Pods-BVAccurateRoutePlot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F68DFD573B0AF1211DFBD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVAccurateRoutePlotUITests/Pods-BVAccurateRoutePlotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42173F19E065424DB9358D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVAccurateRoutePlot/Pods-BVAccurateRoutePlot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F70F44503782D48EE7678811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98EBE7B51D6CC69F0078E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EBE7F11D6CC83E0078E84B /* BVAccurateRoutePlot.m in Sources */,
+				98EBE7C41D6CC69F0078E84B /* ViewController.m in Sources */,
+				98EBE7C11D6CC69F0078E84B /* AppDelegate.m in Sources */,
+				98EBE7BE1D6CC69F0078E84B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7CE1D6CC69F0078E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EBE7D71D6CC69F0078E84B /* BVAccurateRoutePlotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EBE7D91D6CC69F0078E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EBE7E21D6CC69F0078E84B /* BVAccurateRoutePlotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98EBE7D41D6CC69F0078E84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EBE7B81D6CC69F0078E84B /* BVAccurateRoutePlot */;
+			targetProxy = 98EBE7D31D6CC69F0078E84B /* PBXContainerItemProxy */;
+		};
+		98EBE7DF1D6CC69F0078E84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EBE7B81D6CC69F0078E84B /* BVAccurateRoutePlot */;
+			targetProxy = 98EBE7DE1D6CC69F0078E84B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98EBE7C51D6CC69F0078E84B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EBE7C61D6CC69F0078E84B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98EBE7CA1D6CC69F0078E84B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EBE7CB1D6CC69F0078E84B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98EBE7E41D6CC69F0078E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98EBE7E51D6CC69F0078E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98EBE7E71D6CC69F0078E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C7E2413C3D0CCE83E50111 /* Pods-BVAccurateRoutePlot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BVAccurateRoutePlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98EBE7E81D6CC69F0078E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190ABAC433B99CC060FB2164 /* Pods-BVAccurateRoutePlot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BVAccurateRoutePlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98EBE7EA1D6CC69F0078E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE718B77E2ED3C21FB1D2070 /* Pods-BVAccurateRoutePlotTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BVAccurateRoutePlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BVAccurateRoutePlot.app/BVAccurateRoutePlot";
+			};
+			name = Debug;
+		};
+		98EBE7EB1D6CC69F0078E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E6BED01A814C9DD8C1708A /* Pods-BVAccurateRoutePlotTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BVAccurateRoutePlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BVAccurateRoutePlot.app/BVAccurateRoutePlot";
+			};
+			name = Release;
+		};
+		98EBE7ED1D6CC69F0078E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96D4306ACA9019DD0D14920 /* Pods-BVAccurateRoutePlotUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BVAccurateRoutePlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BVAccurateRoutePlot;
+			};
+			name = Debug;
+		};
+		98EBE7EE1D6CC69F0078E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986D849026212DCE7F3030CD /* Pods-BVAccurateRoutePlotUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BVAccurateRoutePlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balazsvincze.BVAccurateRoutePlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BVAccurateRoutePlot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98EBE7B41D6CC69F0078E84B /* Build configuration list for PBXProject "BVAccurateRoutePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EBE7E41D6CC69F0078E84B /* Debug */,
+				98EBE7E51D6CC69F0078E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EBE7E61D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EBE7E71D6CC69F0078E84B /* Debug */,
+				98EBE7E81D6CC69F0078E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EBE7E91D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EBE7EA1D6CC69F0078E84B /* Debug */,
+				98EBE7EB1D6CC69F0078E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EBE7EC1D6CC69F0078E84B /* Build configuration list for PBXNativeTarget "BVAccurateRoutePlotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EBE7ED1D6CC69F0078E84B /* Debug */,
+				98EBE7EE1D6CC69F0078E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98EBE7B11D6CC69F0078E84B /* Project object */;
+}
