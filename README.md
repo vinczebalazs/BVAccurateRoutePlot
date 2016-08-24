@@ -8,7 +8,7 @@ The reason for this is that Google Maps will only send you an "overview_polyine"
 
 **Note:** **BVAccurateRoutePlot** uses Apple's MapKit for calculating directions, as it is much faster than Google's. 
 
-**Please don't forget to link the `<MapKit>` framewrok to your project in Xcode!**
+**Please don't forget to link the `<MapKit>` framework to your project in Xcode!**
 
 ## **Usage**
 
