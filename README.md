@@ -1,6 +1,6 @@
 # BVAccurateRoutePlot
 
-If you are using Google Maps in your application, and want to plot some directions on the map, you won't get an accurate polyline which follwos the road (especially for long distances). 
+If you are using Google Maps in your application, and want to plot some directions on the map, you won't get an accurate polyline which follows the road (especially for long distances). 
 
 The reason for this is that Google Maps will only send you an "overview_polyine" which is just a rough estimate of where the polyline should be on the map. This can lead to weird results, such as the polyline being completely off the road.
 
